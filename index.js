@@ -11,7 +11,7 @@ const users=[{}];
 
 app.use(cors());
 app.get("/",(req,res)=>{
-    res.send("HELL ITS WORKING buttttt not getting data");
+    res.send("Server is Working");
 })
 
 const server=http.createServer(app);
